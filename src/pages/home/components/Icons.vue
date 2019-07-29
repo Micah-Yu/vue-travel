@@ -90,8 +90,9 @@ export default {
   @import "~styles/mixins.styl"
   .icons
     overflow hidden
+    margin-top .2rem
     height 0
-    padding-bottom 55%
+    padding-bottom 54%
     .icon
       position relative
       overflow hidden
