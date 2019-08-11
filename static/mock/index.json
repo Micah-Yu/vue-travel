@@ -1,16 +1,15 @@
 {
   "ret": true,
   "data": {
-    "city": "哈尔滨",
     "swiperList": [{
       "id": "001",
       "imgUrl": "//source.qunarzz.com/site/images/wns/20190626_dujia_homepage_top_banner_5.jpg"
     }, {
       "id": "002",
-      "imgUrl": "//source.qunarzz.com/site/images/wns/20190702_dujia_homepage_top_banner_4.jpg"
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1609/79/8f2e6117dd0ca102.jpg_750x200_032cd8b4.jpg"
     }, {
       "id": "003",
-      "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20197/6875979c607515c27de528361ab1e55e.jpg_750x200_9db3d155.jpg"
+      "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20195/ee69e3fb19710fd3c46afe8cb22be4e8.jpg_750x200_6ad516e2.jpg"
     }],
 
     "iconList": [{
