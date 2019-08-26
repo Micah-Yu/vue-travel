@@ -3,7 +3,7 @@
     <div class="banner" @click="handleBannerClick">
       <img class="banner-img" :src="bannerImg" alt="pic">
       <div class="banner-info">
-        <div class="banner-title">{{this.sightname}}</div>
+        <div class="banner-title">{{this.sightName}}</div>
         <div class="banner-number">
           <span class="iconfont banner-icon">&#xe614;</span>
           {{this.gallaryImgs.length}}
@@ -19,7 +19,7 @@ import CommonGallary from 'common/gallary/Gallary'
 export default {
   name: 'DetailBanner',
   props: {
-    sightname: String,
+    sightName: String,
     bannerImg: String,
     gallaryImgs: Array
   },

@@ -1,7 +1,7 @@
 <template>
   <div>
     <detail-banner
-      :sighrName="sightName"
+      :sightName="sightName"
       :bannerImg="bannerImg"
       :gallaryImgs="gallaryImgs"
     ></detail-banner>
