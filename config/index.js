@@ -11,8 +11,17 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
+      // 后端服务器提供数据
+      // '/api':{
+      //   target: 'http://192.168.64.4'
+      // }
+
+      //本地数据测试
       '/api':{
-        target: 'http://192.168.64.4'
+        target:'http://localhost:8080/',
+        pathRewrite:{
+          '^/api':'/static/mock'
+        }
       }
     },
 
